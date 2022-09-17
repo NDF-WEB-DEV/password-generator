@@ -1,4 +1,4 @@
-# password-generator
+# Password-Generator
 
 ## Description
 This project was created to demonstrate a "Password Generator" web application. It utilizes numbers, special characters, and lower and uppercase letters to generate a password sized between 8 and 128 characters long.
