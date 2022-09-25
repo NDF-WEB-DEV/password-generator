@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-align: center;
 }
 
 html,
@@ -30,6 +31,9 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h1 h2 {
+  text-align: center;
+}
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
