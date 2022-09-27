@@ -62,9 +62,9 @@ function randomPasswordGenerator () {               //Declare the function insid
   return finalPassword;   //function returns value of line 60
 }
 var randomPassword = randomPasswordGenerator();   //declaring a var outside the scope of the function to call it globaly
-console.log(finalPassword);  //printing cofirmation
-  console.log(characterChoices());                  //print confirmation in console  
+console.log(finalPassword);  //printing cofirmation 
 return password.textContent = randomPassword;       //print password in web page 
+
 };
 
 //3 - EVENT LISTENER
