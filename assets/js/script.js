@@ -63,12 +63,13 @@ function randomPasswordGenerator () {               //Declare the function insid
 }
 var randomPassword = randomPasswordGenerator();   //declaring a var outside the scope of the function to call it globaly
 console.log(finalPassword);  //printing cofirmation
-return randomPassword;
+  // finalPassword.textContent = password;        // And stored inside the password ID for display.
+  // console.log(characterChoices());                  //print confirmation   
+return password.textContent = randomPassword;
+
 };
 
 //3 - EVENT LISTENER
 generateBtn.addEventListener("click", function() {  // when the genrerate password funtion is clicked 
-  localStorage.getItem(characterChoices());         // The password is retrieve from the generatePassword function 
-  password.textContent = characterChoices();        // And stored inside the password ID for display.
-  console.log(characterChoices());                  //print confirmation            
+  localStorage.getItem(characterChoices());         // The password is retrieve from the generatePassword function          
 });
