@@ -7,7 +7,7 @@ var randMix;
 
 //1 - FUNCTION FOR CHARACTER CHOICES
 function characterChoices() {
-  var specialChars = ["+","-","&&","||","!","(",")","{","}","[","]","^","~","*","?",":"];
+  var specialChars = ["+","-","&","|","!","(",")","{","}","[","]","^","~","*","?",":"];
   var finalPassword = '';
   //REQUEST PASSWORD LENGTH
   var requestPassLength = parseInt(prompt("How many characters should the password contain?")); //Ask end-user to enter password length
@@ -21,7 +21,7 @@ function characterChoices() {
   //SPECIAL CHARACTERS
   var specialCharsQuestion = confirm("Click the OK button if you want to include special characters.");   //Ask user if they want to include special characters
   if(specialCharsQuestion == true) {               //If true
-    var specialChars = ["+","-","&&","||","!","(",")","{","}","[","]","^","~","*","?",":"];     //variable declared to store the special characters
+    var specialChars = ["+","-","&","|","!","(",")","{","}","[","]","^","~","*","?",":"];     //variable declared to store the special characters
     var beforeFinalPassword = [];      //variable declared + initialized to concatenate the special characters with 
     console.log("True");                  //testing if code is working
     var charCollector1 = specialChars.concat(beforeFinalPassword);     //special characters are added to the beforeFinalPassword variable;
